@@ -1,0 +1,32 @@
+body{
+    background-image: url("https://i.pinimg.com/236x/ae/d7/dc/aed7dc581fa6dc435ff77155c76a14d4.jpg");
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    font-size: 6rem;
+    font-weight: bolder;
+    opacity: 0.8;
+}
+.newyear{
+    font-size: 3.5rem;
+    color: rgb(176, 211, 22);
+    opacity: 0.6;
+    display: none;
+    margin-bottom: 2rem;
+    transition: all 6s ease-in-out;
+}
+.btn{
+    font-size: 2rem;
+    background: #fff;
+    color: tomato;
+    opacity: 0.8;
+}
+.add{
+    display: block;
+}
